@@ -1,12 +1,11 @@
 # Scheme Meta-Circular Interpreter again
 
-#An interpreter
- interpreter is something that takes a program, in some language – an interpreter of A written in B takes an A program and puts it into the interpreter, written in B code and gives you the output.
+#Testing free typing
 
-#Scheme Meta-Circular Interpreter
 
 To understand what it is, you have to parse apart the terms:
 
+#Testing Header
 #An interpreter 
  interpreter is something that takes a program, in some language – an interpreter of A written in B takes an A program and puts it into the interpreter, written in B code and gives you the output.An
 

@@ -1,7 +1,3 @@
-# test one
-
-# test twos
-
 # Scheme Meta-Circular Interpreter
 
 To understand what it is, you have to parse apart the terms:

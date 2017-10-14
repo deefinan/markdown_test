@@ -26,12 +26,12 @@ Define a second called apply.  Apply takes a procedure and list of args and retu
 
 Start with some easy cases.  
 
-If the expression is a symbol
+### If the expression is a symbol
 If it is a global variable there will be a list of global variables somewhere.  If it’s a local variable then we have to fetch it from some data structure that represents the mapping of local variables to values.  Also needed is a data structure that represents the mapping of global variables to values.  So we have the fetch the value of the symbol from some local environment.  When you evaluate an expression like (+ x 1),  + is a global variable so can get the + function from a list of global variable. It also as to evalute x, but the value of x depends on the context in which the expression is evaluated.  The environment is defined as a mapping of variables to values.
 
-If it is a function call
+### If it is a function call
 If it’s a function call like (+1 x), we have to evaluate every one of the subexpressions, ie the +, 1 and x.  That would be a map . It has to evaluate things in context	
 
-Lambda Special Form
+### Lambda Special Form
 When you evaluate it, it returns a procedure.  A procedure has to have code. When you evoke a procedure, you pass it some arguments and then some code gets evaluated.  The code is the body of the procedure.  
 

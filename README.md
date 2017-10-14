@@ -1,13 +1,18 @@
 # Scheme Meta-Circular Interpreter again
+
+#An interpreter
+ interpreter is something that takes a program, in some language – an interpreter of A written in B takes an A program and puts it into the interpreter, written in B code and gives you the output.
+
 #Scheme Meta-Circular Interpreter
 
 To understand what it is, you have to parse apart the terms:
 
 #An interpreter 
-An interpreter is something that takes a program, in some language – an interpreter of A written in B takes an A program and puts it into the interpreter, written in B code and gives you the output.
+ interpreter is something that takes a program, in some language – an interpreter of A written in B takes an A program and puts it into the interpreter, written in B code and gives you the output.An
 
 Generally, when you write an interpreter you want the language you are interpreting to be simple and small and the language you are writing the interpreter in to be powerful.  
 
+#A meta
 #A meta-circular interpreter 
 A meta-circular interpreter is when you are writing an interpreter for language A and the interpreter is written in language A.  When you are writing the interpreter you want A to be small, and B to be powerful so setting A = B can be a serious constraint.
 

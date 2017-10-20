@@ -15,7 +15,7 @@ A  will be the core pure Scheme, which doesn’t include Let, it just includes fun
 
 The Thing we are interpreting will not have many constants
 
-###IDEA###
+##IDEA##
 Implement two functions:  
 Define one as eval (using eval_ as eval is a built in function).  Eval will take a scheme expression and return the value evaluated
 Define a second called apply.  Apply takes a procedure and list of args and returns the result of applying the procedure to the arguments
